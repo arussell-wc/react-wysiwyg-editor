@@ -1,8 +1,9 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable no-unused-vars */
 import React, { useEffect, useRef, useState } from 'react';
 import { TemplateSelector } from './components/TemplateSelector';
 import { Toolbar } from './components/Toolbar';
-import './styles.css';
-
+import "./styles.module.css";
 interface Template {
   name: string;
   content: string;
