@@ -1,5 +1,5 @@
 {
-  "name": "react-wysiwyg",
+  "name": "nodegeeks-react-wysiwyg-editor",
   "version": "0.1.0",
   "description": "Advanced WYSIWYG editor with data binding support for React applications",
   "main": "dist/index.js",
