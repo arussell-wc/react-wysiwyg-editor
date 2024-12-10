@@ -18,9 +18,9 @@ A feature-rich WYSIWYG (What You See Is What You Get) editor component for React
 ## Installation
 
 ```bash
-npm install react-wysiwyg-editor
+npm install nodegeeks-react-wysiwyg-editor
 # or
-yarn add react-wysiwyg-editor
+yarn add nodegeeks-react-wysiwyg-editor
 ```
 
 ## Usage
@@ -29,8 +29,8 @@ yarn add react-wysiwyg-editor
 
 ```tsx
 import React, { useState } from 'react';
-import { WysiwygEditor } from 'react-wysiwyg-editor';
-import 'react-wysiwyg-editor/styles.css';
+import { WysiwygEditor } from 'nodegeeks-react-wysiwyg-editor';
+import 'nodegeeks-react-wysiwyg-editor/styles.css';
 
 const MyEditor = () => {
   const [content, setContent] = useState('<p>Hello World!</p>');
@@ -48,8 +48,8 @@ const MyEditor = () => {
 
 ```tsx
 import React, { useState } from 'react';
-import { WysiwygEditor } from 'react-wysiwyg-editor';
-import 'react-wysiwyg-editor/styles.css';
+import { WysiwygEditor } from 'nodegeeks-react-wysiwyg-editor';
+import 'nodegeeks-react-wysiwyg-editor/styles.css';
 
 const MyAdvancedEditor = () => {
   const [content, setContent] = useState('');

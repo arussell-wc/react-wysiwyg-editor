@@ -153,7 +153,7 @@ export const WysiwygEditor: React.FC<WysiwygEditorProps> = ({
       )}
       <div
         ref={editorRef}
-        className="react-wysiwyg-editor"
+        className="nodegeeks-react-wysiwyg-editor"
         contentEditable
         onInput={handleChange}
         suppressContentEditableWarning={true}

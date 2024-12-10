@@ -121,7 +121,7 @@ describe('WysiwygEditor', () => {
       />
     );
 
-    const editor = container.querySelector('.react-wysiwyg-editor');
+    const editor = container.querySelector('.nodegeeks-react-wysiwyg-editor');
     
     // Simulate some changes
     fireEvent.input(editor!, { target: { innerHTML: 'Change 1' } });
